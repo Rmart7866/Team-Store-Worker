@@ -5,7 +5,7 @@
  * ones with custom.team_store = true, and writes the compiled list to the
  * team-stores PAGE metafield (custom.team_stores, type json).
  *
- * Liquid reads that metafield and renders the list server-side. No visitor ever
+ * Liquid reads that metfield and renders the list server-side. No visitor ever
  * waits on this, so the walk can take as long as it likes.
  *
  *   POST /rebuild   force an immediate rebuild (X-Rebuild-Key header)

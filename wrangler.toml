@@ -7,3 +7,12 @@ crons = ["*/5 * * * *"]
 
 [vars]
 SHOP_DOMAIN = "therunhouse.myshopify.com"
+
+# Optional, only powers GET /status. Create with:
+#   npx wrangler kv namespace create TEAM_STORES
+
+
+# Secrets, set each with: npx wrangler secret put NAME
+#   SHOPIFY_CLIENT_ID
+#   SHOPIFY_CLIENT_SECRET
+#   REBUILD_KEY          any random string, used for the manual POST /rebuild
