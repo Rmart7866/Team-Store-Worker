@@ -10,10 +10,7 @@ SHOP_DOMAIN = "therunhouse.myshopify.com"
 
 # Optional, only powers GET /status. Create with:
 #   npx wrangler kv namespace create TEAM_STORES
-# then paste the id below. Delete this block to skip it.
-[[kv_namespaces]]
-binding = "TEAM_STORES"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+"
 
 # Secrets, set each with: npx wrangler secret put NAME
 #   SHOPIFY_CLIENT_ID
